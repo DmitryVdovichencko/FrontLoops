@@ -1,0 +1,16 @@
+@import url('item__img.css');
+@import url("item__header.css");
+@import url("item__description.css");
+@import url("item__price.css");
+.item{
+	display:flex;
+	flex-flow:column nowrap;
+	justify-content: flex-start;
+	min-height: 410px;
+	padding:20px;
+	border-radius: 4px;
+  	transition: background 0.15s ease-in-out;
+}
+.item:hover{
+	background-color: #f6f6f6;;
+}
