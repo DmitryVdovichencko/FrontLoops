@@ -1,0 +1,17 @@
+.item__price{
+	color:#3c68ac;
+	/*margin-bottom:5px;*/
+	font-size:0.8em;
+}
+
+.item__price span:nth-child(3){
+	vertical-align: bottom;
+}
+.item__price span:first-child{
+	vertical-align: top;
+}
+.item__price span:nth-child(2){
+	font-size: 30px;
+  	font-weight: 500;
+	letter-spacing: 1px;
+}

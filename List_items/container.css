@@ -1,0 +1,23 @@
+.container{
+  	margin:auto auto;
+	text-align: center;
+	width:70%;
+	height: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows:auto;
+	align-items:center;
+	background-color:#ffffff;
+	color:darkgrey;
+	padding:20px;
+	border-radius: 5px;
+  	box-shadow: -5px 10px 45px 1px rgba(0,0,0,0.4);
+}
+@media (max-width: 800px) { 
+	.container{
+		width:60%;
+		margin:10px auto;
+		grid-template-columns: auto;
+		grid-template-rows:1fr 1fr 1fr;
+	}
+}
