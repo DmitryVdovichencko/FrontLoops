@@ -1,0 +1,10 @@
+.page{
+	width:20%;
+	min-width:280px;
+	border:solid 1px lightgrey;
+	box-shadow: -5px 10px 45px 1px rgba(0,0,0,0.4);
+}
+.page:hover{
+	width:25%;
+	min-width: 300px;
+}

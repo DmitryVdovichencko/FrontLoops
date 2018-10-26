@@ -1,0 +1,12 @@
+.page__link{
+	 background: rgb(255,255,255);
+	 display:block;
+	 width:100%;
+	 margin: 0px;
+	 padding:10px;
+	 box-sizing: border-box;
+	 text-decoration: none;
+	 letter-spacing: 0.1em;
+	 color:#333;
+	 text-align: center;
+}
