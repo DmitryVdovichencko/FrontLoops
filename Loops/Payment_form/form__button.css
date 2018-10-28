@@ -1,0 +1,11 @@
+.form__button{
+	border-bottom:none;
+	border-radius: 0px 0px 5px 5px;
+	justify-content: center;
+	background-color: rgb(89,139,221,255);
+	color: white;
+	padding:20px;
+	text-align: center;
+
+
+}

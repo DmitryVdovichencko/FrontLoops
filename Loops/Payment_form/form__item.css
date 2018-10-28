@@ -1,0 +1,6 @@
+.form__item{
+	display:flex;
+	border-bottom: 1px solid lightgrey;
+	align-items:center;
+	padding:20px;
+}

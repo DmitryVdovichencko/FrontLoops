@@ -1,0 +1,12 @@
+.form {
+	display: flex;
+	flex-flow:column nowrap;
+	justify-content: flex-start;
+	background-color:#ffffff;
+	
+	width:20%;
+	min-width: 310px;
+	height: auto;
+	margin:80px auto auto auto;
+	border-radius: 5px;
+}
