@@ -1,0 +1,29 @@
+
+
+@import url('form.css');
+@import url('form__item.css');
+@import url('form__img.css');
+@import url('form__button.css');
+@import url('form__header.css');
+@import url('form__check.css');
+
+/*My CSS styles*/
+html{
+	background:url('img/background.jpg') no-repeat;
+	background-size: cover;
+}
+body{
+	height:100vh;
+	margin:0px;
+	padding:0px;
+	display:flex;
+	flex-flow:column nowrap;
+	justify-content: space-around;
+	align-items: center;
+	text-transform: uppercase;
+	font-family: Roboto, sans-serif;
+	
+}
+
+
+
