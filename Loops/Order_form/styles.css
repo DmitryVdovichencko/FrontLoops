@@ -1,0 +1,140 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*________________End of CSSReset______________*/
+/*My CSS styles*/
+html{
+			background-color:#16a085;
+	
+}
+body{height:100vh;
+display:flex;
+flex-flow:column nowrap;
+justify-content: space-around;
+font-family: Roboto, sans-serif;
+	font-weight: 400;
+}
+.container{
+display: flex;
+margin:auto;
+flex-flow: column nowrap;
+justify-content: flex-start;
+width:600px;
+
+border-radius: 5px;
+	-webkit-box-shadow: -5px 10px 45px 1px rgba(0,0,0,0.4);
+-moz-box-shadow: -5px 10px 45px 1px rgba(0,0,0,0.4);
+box-shadow: -5px 10px 45px 1px rgba(0,0,0,0.4);
+height:500px;
+background-color: rgb(255,255,255); 
+
+ position: relative;
+  z-index: 2;
+}
+.text_container{
+	width:auto;
+	height: 400px;
+	margin-bottom: -150px;
+	padding:40px;
+	
+	
+
+}
+.text_container .header{
+	
+	font-size: 1.5em;
+	margin:auto;
+	margin-left: 0px;
+}
+.text_container .item img{
+	padding:10px;
+	border:solid 1px lightgrey;
+	border-radius: 50%;
+	transition: box-shadow 0.2s ease-in;
+
+}
+.text_container .item img:hover{
+	box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.05);
+}
+.text_container .header_descr{
+	color:grey;
+	margin-bottom: 30px;
+	font-size: 0.9em;
+
+}
+.text_container .item {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin-bottom: 30px;
+
+	
+}
+.text_container .item:last-child{
+	text-transform: uppercase;
+}
+.text_container .item:last-child span:first-child{
+	font-weight: 800;
+}
+.text_container .item span{
+	color:#5c5c5c;
+}
+.text_container .item .header, .text_container .item .price {
+	color:black;
+	font-weight: 800;
+}
+.background_container{
+background: url('./img/bicycle.png') no-repeat 50% 0;
+position: absolute;
+background-size: cover;
+height:300px;
+
+bottom:0;
+left:0;
+right:0;
+}
